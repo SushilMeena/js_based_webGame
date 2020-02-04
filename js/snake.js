@@ -80,7 +80,7 @@ function init(){
             var last_y = Math.round(H/10);
             
             if(this.cells[0].y<0 || this.cells[0].x <0|| this.cells[0].x>last_x || this.cells[0].y>last_y){
-                    alert("GameOver \n Refresh Pages for Play Again");
+                    alert("GameOver  Refresh Pages for Play Again");
                     game_over = true;
                 
             }
