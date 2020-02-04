@@ -1,0 +1,9 @@
+#mycanvas{
+	background-color: black;
+	border:orange 5px solid  ;
+	height: 400px;
+	width: 800px;
+	margin: 10px;
+	border-width: 10px;
+
+}
