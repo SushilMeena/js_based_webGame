@@ -91,10 +91,27 @@ function init(){
         }
     };
     snake.createSnake();
-    
+    <button onclick="moveup()">UP</button>
+<button onclick="movedown()">DOWN</button>
+<button onclick="moveleft()">LEFT</button>
+<button onclick="moveright()">RIGHT</button>
     //Add Event listeners to our game
     //Listen for keyboard events.
-    
+    function:moveright(){
+snake.direction = "right"
+}
+function:moveleft(){
+snake.direction = "left"
+}
+function:moveup(){
+snake.direction = "up"
+}
+function:movedown(){
+snake.direction = "down"
+}
+
+
+
     function KeyPressed(e){
         
         console.log("You pressed a key");
