@@ -91,19 +91,7 @@ function init(){
         }
     };
     snake.createSnake();
-//Touch button
-function:moveright(){
-snake.direction = "right";
-}
-function:moveleft(){
-snake.direction = "left";
-}
-function:moveup(){
-snake.direction = "up";
-}
-function:movedown(){
-snake.direction = "down";
-}
+//}
     
     //Add Event listeners to our game
     //Listen for keyboard events.
@@ -128,6 +116,18 @@ snake.direction = "down";
         
     }
     
+//Touch button
+function:moveright(){
+snake.direction = "right";}
+}
+function:moveleft(){
+snake.direction = "left";}
+}
+function:moveup(){
+snake.direction = "up";}
+}
+function:movedown(){
+snake.direction = "down";}
     
     document.addEventListener('keydown',KeyPressed);
     
