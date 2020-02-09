@@ -117,7 +117,11 @@ function init(){
     }
     
 //Touch button
-function:moveright(){
+
+    
+    document.addEventListener('keydown',KeyPressed);
+    
+    function:moveright(){
 snake.direction = "right";}
 }
 function:moveleft(){
@@ -128,8 +132,6 @@ snake.direction = "up";}
 }
 function:movedown(){
 snake.direction = "down";}
-    
-    document.addEventListener('keydown',KeyPressed);
     
 }
 
