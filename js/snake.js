@@ -120,6 +120,18 @@ function init(){
 
     
     document.addEventListener('keydown',KeyPressed);
+    function:moveright(){
+snake.direction = "right";
+}
+function:moveleft(){
+snake.direction = "left";
+}
+function:moveup(){
+snake.direction = "up";
+}
+function:movedown(){
+snake.direction = "down";
+}
     
     
     
